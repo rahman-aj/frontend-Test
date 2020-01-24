@@ -1,99 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <div class="row container-fluid nav-bg">
-                <div class="col">
-                <!-- start of navbar -->
-                
-                    <nav class="navbar navbar-expand-md bg-dark navbar-dark bg-transparent">
-                        <!-- Brand -->
-                        <a class="navbar-brand" href="#">Volcanic</a>
-                    
-                        <!-- Toggler/collapsibe Button -->
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                    
-                        <!-- Navbar links -->
-                        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Register</a>
-                            </li>
-                        </ul>
-                        </div>
-                    </nav>
-                    <!-- end of navbar -->
 
-                    <!-- start of wrapped text -->
-                    <div class="container">
-                    </br>
-                    </br>
-                    </br>
-                    </br>
-                        <div class="row">
-                            <div class="col-4">
-                            </div>
-                            <div class="col-4 justify-content-center">
-                                <h1 class="text-center">Some big ass line word sentence</h1>
-                            </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid nav-bg">
+        <!-- start of navbar -->
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark bg-transparent">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">Volcanic</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li>
+                        <a class="btn button" href="#">Login</a>
+                    </li>
+                    <li>
+                        <a class="btn button" href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- start of wrapped text -->
+        <div class="container">
+            </br>
+            </br>
+            </br>
+            </br>
+            <div class="row">
+                <div class="col-4">
+                </div>
+                <div class="col-4 justify-content-center">
+                    <h1 class="text-center">Some big ass line word sentence</h1>
+                </div>
+            </div>
+        </div>
+        <!-- end of wrapped text -->
+
+
+        <!-- start of search bar -->
+        <div class="flex-row">
+            <div class="col-12" align="center" style="padding-top: 20px;">
+                <input type="text" class="bars" name="Keyword" style="width: 30vw;height: 3rem;" placeholder="Keyword">
+                <input type="text" class="bars" name="Location" style="width: 30vw;height: 3rem;" placeholder="Location">
+                <button type="button" class="btn btn-warning btn-sm bars" style="width: 20vw; height: 3rem;">SEARCH JOBS</button>
+            </div>
+        </div>
+        <!-- end of search bar -->
+
+        </br>
+        </br>
+        </br>
+        </br>
+
+        <!-- start of first slider -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="carousel box-carousel d-none d-sm-block text-center">
+                        <div>
+                            <a href="#"><span class="oi oi-aperture"></span>
+                                <i class="fa fa-3x fa-laptop"
+                                aria-hidden="true"></i><br>Web Design11</a>
                         </div>
+                        <div>
+                            <a href="#"><span class="oi oi-aperture"></span>
+                                <i class="fa fa-3x fa-laptop"
+                                aria-hidden="true"></i><br>Web Design11</a>
+                        </div>
+                        <div>
+                            <a href="#"><span class="oi oi-aperture"></span>
+                                <i class="fa fa-3x fa-laptop"
+                                aria-hidden="true"></i><br>Web Design11</a>
+                        </div>
+                        <div>
+                            <a href="#"><span class="oi oi-aperture"></span>
+                                <i class="fa fa-3x fa-laptop"
+                                aria-hidden="true"></i><br>Web Design11</a>
+                        </div>
+                        <div>
+                            <a href="#"><span class="oi oi-aperture"></span>
+                                <i class="fa fa-3x fa-laptop"
+                                aria-hidden="true"></i><br>Web Design11</a>
+                        </div>
+                        <div>
+                            <a href="#"><span class="oi oi-aperture"></span>
+                                <i class="fa fa-3x fa-laptop"
+                                aria-hidden="true"></i><br>Web Design11</a>
+                        </div>
+                        <div>
+                            <a href="#"><span class="oi oi-aperture"></span>
+                                <i class="fa fa-3x fa-laptop"
+                                aria-hidden="true"></i><br>Web Design11</a>
+                        </div>
+                        <div>
+                            <a href="#"><span class="oi oi-aperture"></span>
+                                <i class="fa fa-3x fa-laptop"
+                                aria-hidden="true"></i><br>Web Design11</a>
+                        </div>
+                        <div>
+                            <a href="#"><span class="oi oi-aperture"></span>
+                                <i class="fa fa-3x fa-laptop"
+                                aria-hidden="true"></i><br>Web Design11</a>
+                        </div>
+                        <div>
+                            <a href="#"><span class="oi oi-aperture"></span>
+                                <i class="fa fa-3x fa-laptop"
+                                aria-hidden="true"></i><br>Web Design11</a>
+                        </div>
+                    </div><!-- carousel-->
+                </div>
+                <!--col-->
+            </div>
+            <!--row-->
+
+            <div class="carousel-mobile box-carousel-mobile d-block d-sm-none">
+                <div class="row d-flex justify-content-center text-center">
+                    <div class="col-xs-6">
+                        <div>
+                            <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                                height="70"><i class="fa fa-3x fa-laptop text-center"
+                                    aria-hidden="true"></i><br>Web Design</a>
+                        </div>
+                        <div>
+                            <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                                height="70"><i class="fa fa-3x fa-laptop text-center"
+                                    aria-hidden="true"></i><br>Web Design</a>
+                        </div>
+                        <div>
+                            <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                                height="70"><i class="fa fa-3x fa-laptop text-center"
+                                    aria-hidden="true"></i><br>Web Design</a>
+                        </div>
+                    </div><!-- col-->
+                    <div class="col-xs-6">
+                        <div>
+                            <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                                height="70"><i class="fa fa-3x fa-laptop text-center"
+                                    aria-hidden="true"></i><br>Web Design</a>
+                        </div>
+                        <div>
+                            <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                                height="70"><i class="fa fa-3x fa-laptop text-center"
+                                    aria-hidden="true"></i><br>Web Design</a>
+                        </div>
+                        <div>
+                            <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                                height="70"><i class="fa fa-3x fa-laptop text-center"
+                                    aria-hidden="true"></i><br>Web Design</a>
+                        </div>
+                    </div><!-- col-->
+                </div>
+            </div>
+        </div><!-- container-->
+
+        </br>
+        </br>
+
+    </div>
+
+    <br>
+
+    <p class="text text-center">Latest Jobs</p>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="carousel box-carousel d-none d-sm-block text-center">
+                    <div>
+                        <a href="#"><img class="box" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop"
+                            aria-hidden="true"></i><br>Web Design11</a>
                     </div>
-                    <!-- end of wrapped text -->
-
-
-                    <!-- start of search bar -->
-                    <div class="flex-row">
-                        <div class="col-12" style="padding-top: 20px;">
-                            <input type="text" name="Keyword" style="width: 30vw;height: 3rem;" placeholder="Keyword" >
-                            <input type="text" name="Location" style="width: 30vw;height: 3rem;" placeholder="Location">
-                            <button type="button" class="btn btn-warning btn-sm" style="width: 20vw;">SEARCH JOBS</button>
-                        </div>
+                    <div>
+                        <a href="#"><img class="box" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
                     </div>
-                    <!-- end of search bar -->
-                    
-                    </br>
-                    </br>
-                    </br>
-                    </br>
-                    
+                    <div>
+                        <a href="#"><img class="box" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="box" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="box" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="box" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="box" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="box" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="box" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="box" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                </div><!-- carousel-->
+            </div>
+            <!--col-->
+        </div>
+        <!--row-->
 
-               
-        
-            </div>    
-        </div>    
-        
+        <div class="carousel-mobile box-carousel-mobile d-block d-sm-none">
+            <div class="row d-flex justify-content-center text-center">
+                <div class="col-xs-6">
+                    <div>
+                        <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                </div><!-- col-->
+                <div class="col-xs-6">
+                    <div>
+                        <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="rounded-circle center" src="images/slider1.jpg" width="150" 
+                            height="70"><i class="fa fa-3x fa-laptop text-center"
+                                aria-hidden="true"></i><br>Web Design</a>
+                    </div>
+                </div><!-- col-->
+            </div>
+        </div>
+    </div><!-- container-->
 
-    </body>
+
+    <script type="text/javascript" src="scripts.min.js"></script>
+</body>
+
 </html>
